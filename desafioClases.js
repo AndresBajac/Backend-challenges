@@ -7,7 +7,7 @@ class Usuario {
     }
     
     getFullName (){
-        console.log(`Mi nombre es ${this.nombre}, mi apellido es ${this.apellido}`) 
+        return (`Mi nombre es ${this.nombre}, mi apellido es ${this.apellido}`) 
     }
 
     addMascota(mascota){
@@ -15,7 +15,7 @@ class Usuario {
     }
 
     countMascotas(){
-        return this.mascotas.length
+        return (this.mascotas.length)
     }
 
     addBook(libros){
@@ -23,8 +23,7 @@ class Usuario {
     }
 
     getBookNames(){
-        return this.libros.forEach(element => {console.log(element.name)});
-        
+        return this.libros.map((element) =>  element.name);   
     }
 }
 
