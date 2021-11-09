@@ -36,4 +36,4 @@ usuario1.getFullName();
 usuario1.addMascota("Coco");
 usuario1.countMascotas();
 usuario1.addBook({name:'Harry Potter 5', autor:'JKK Rowling'});
-usuario1.getBookNames()
+usuario1.getBookNames();
