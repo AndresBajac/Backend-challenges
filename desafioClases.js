@@ -7,7 +7,7 @@ class Usuario {
     }
     
     getFullName (){
-        return (`Mi nombre es ${this.nombre}, mi apellido es ${this.apellido}`) 
+        return (`${this.nombre} ${this.apellido}`) 
     }
 
     addMascota(mascota){
@@ -23,17 +23,17 @@ class Usuario {
     }
 
     getBookNames(){
-        return this.libros.map((element) =>  element.name);   
+        return this.libros.map((element) =>  element.nombre);   
     }
 }
 
 //OBJETO CON VALORES ARBITRARIOS, PARA LUEGO INVOCAR SUS MÉTODOS
-const usuario1 = new Usuario ("Andres", "Bajac", [{name:'El señor de los anillos', autor:'JRR Tolkien'}], ["Pippin"])
+const usuario1 = new Usuario ("Andres", "Bajac", [{nombre:'El señor de los anillos', autor:'JRR Tolkien'}], ["Pippin"])
 
 console.log(usuario1)
 
-usuario1.getFullName();
-usuario1.addMascota("Coco");
-usuario1.countMascotas();
-usuario1.addBook({name:'Harry Potter 5', autor:'JKK Rowling'});
-usuario1.getBookNames();
+console.log(usuario1.getFullName());
+console.log(usuario1.addMascota("Coco"));
+console.log(usuario1.countMascotas());
+console.log(usuario1.addBook({nombre:'Harry Potter 5', autor:'JKK Rowling'}));
+console.log(usuario1.getBookNames());
