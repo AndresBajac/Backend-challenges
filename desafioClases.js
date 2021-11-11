@@ -33,7 +33,7 @@ const usuario1 = new Usuario ("Andres", "Bajac", [{nombre:'El señor de los anil
 console.log(usuario1)
 
 console.log(usuario1.getFullName());
-console.log(usuario1.addMascota("Coco"));
+//console.log(usuario1.addMascota("Coco"));
 console.log(usuario1.countMascotas());
-console.log(usuario1.addBook({nombre:'Harry Potter 5', autor:'JKK Rowling'}));
+//console.log(usuario1.addBook({nombre:'Harry Potter 5', autor:'JKK Rowling'}));
 console.log(usuario1.getBookNames());
