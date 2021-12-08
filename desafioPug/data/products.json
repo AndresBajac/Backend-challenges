@@ -1,0 +1,22 @@
+[
+    {
+        "nombre": "boleadora",
+        "precio": 1300,
+        "thumbnail": "https://www.clarin.com/img/2020/09/01/las-boleadoras-eran-las-armas___zLYnbWZtA_600x338__1.jpg"
+    },
+    {
+        "nombre": "estribo",
+        "precio": 500,
+        "thumbnail": "http://talabarteriabeyco.com.ar/wp/wp-content/uploads/2017/04/Estribo-03.jpg"
+    },
+    {
+        "nombre": "cuchillo de disco de arado",
+        "precio": 4000,
+        "thumbnail": "https://compraronline.s3.amazonaws.com/arv/lvt/ARA006.jpg"
+    },
+    {
+        "nombre": "boina",
+        "precio": 2800,
+        "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_642896-MLA42374877404_062020-W.jpg"
+    }
+]
