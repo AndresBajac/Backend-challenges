@@ -26,4 +26,4 @@ router.post('/',(req, res) =>{
     return res.redirect('/list')
 })
 app.use('/api/productos', router)
-app.listen(8080)
+app.listen(3000)
