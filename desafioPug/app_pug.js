@@ -14,18 +14,18 @@ app.set('views', './views/pug')
 app.set('view engine', 'pug')
 
 app.get('/', (req, res) => {
-    let content = productos.content
+    let content = products
     return res.render('index.pug', {content})
 })
 
 app.post("/productos", (req, res) => {
-    productos.save(req.body)
-    let content = productos.content
-    return res.render('productos.pug', {content});
+    products.save(req.body)
+    let content = products
+    return res.render('productos.pug', {data: content});
 });
 
 app.get("/productos", (req, res) => {
-    let content = productos.content
+    let content = products
     return res.render('productos.pug', {content});
 });
 
